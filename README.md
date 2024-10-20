@@ -1,8 +1,22 @@
 # SFML Static Premake
 
-This repository provides a simple setup to create an SFML application using Premake 5. 
+This repository provides a simple setup to create a SFML application using Premake 5. 
 The solution includes two ready to use projects: `App` (an executable) and `Core` (a static library).
 All dependencies are already included in this repo (premake5 and SFML 2.6.1).
+
+### Cloning the Repository
+
+```bash
+git clone https://github.com/Theo-gamedev/SFML-Static-Premake.git
+```
+
+### Setting Up the Solution
+
+1. **Run the setup script:**
+
+   Execute the batch file provided in `Scripts/SetupSolution.bat` to generate the solution files:
+
+   This will generate the project files. And you are now done with setting up the project !
 
 ## Repository Structure
 
@@ -35,21 +49,6 @@ ProjectName = "Sandbox"
 CoreName = "Core"
 AppName = "App"
 ```
-
-### Cloning the Repository
-
-```bash
-git clone https://github.com/Theo-gamedev/SFML-Static-Premake.git
-cd SFML-Static-Premake
-```
-
-### Setting Up the Solution
-
-1. **Run the setup script:**
-
-   Execute the batch file provided in `Scripts/SetupSolution.bat` to generate the solution files:
-
-   This will generate the project files. And you are now done with setting up the project !
 
 ### Directory Details
 
