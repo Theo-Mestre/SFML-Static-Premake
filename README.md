@@ -7,7 +7,7 @@ All dependencies are already included in this repo (premake5 and SFML 2.6.1).
 ### Cloning the Repository
 
 ```bash
-git clone https://github.com/Theo-gamedev/SFML-Static-Premake.git
+git clone https://github.com/Theo-Mestre/SFML-Static-Premake.git
 ```
 
 ### Setting Up the Solution
